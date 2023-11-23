@@ -19,54 +19,24 @@
     <div class="formulario">      
       <h1>Formulario de contacto</h1>
         <h3>Escríbanos para contactarnos con Usted.</h3>
+<form target="_blank" action="https://formsubmit.co/daniel.paredes@tvtotal.cl" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Mensaje" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+            </form>
 
-
-          <form action="https://formsubmit.co/ daniel.paredes@tvtotal.cl"  method="post">       
-
-            
-                <p>
-                  <label for="nombre" class="colocar_nombre">Nombre
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escriba su nombre">
-                </p>
-              
-                <p>
-                  <label for="email" class="colocar_email">Email
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escriba su Email">
-                </p>
-            
-                <p>
-                  <label for="telefone" class="colocar_telefono">Teléfono
-                  </label>
-                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escriba su teléfono">
-                </p>    
-              
-                
-              
-                <p>
-                  <label for="asunto" class="colocar_asunto">Asunto
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Mensaje">
-                </p>    
-              
-                <p>
-                  <label for="mensaje" class="colocar_mensaje">Mensaje
-                    <span class="obligatorio">*</span>
-                  </label>                     
-                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Texto de su mensaje..."></textarea> 
-                                </p>                    
-              
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-                <p class="aviso">
-                  <span class="obligatorio"> * </span>los campos son obligatorios.
-                </p>          
-            
-          </form>
+         
     </div>  
   </div>
 
